@@ -3,6 +3,7 @@
 body {
     background-color: #FFFFFF;
     font-family: 'Lato';
+    overflow-x: hidden;
 }
 
 .card-registration .select-input.form-control[readonly]:not([disabled]) {
