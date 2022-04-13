@@ -3,6 +3,7 @@
 body {
     background-color: #FFFFFF;
     font-family: 'Lato';
+    overflow-x: hidden;
 }
 
 .card-registration .select-input.form-control[readonly]:not([disabled]) {
@@ -20,6 +21,18 @@ body {
     background-color: #FFFFFF;
 }
 
+.login {
+    padding: 240px 30px;
+}
+
+.forgot-password, .reset-password {
+    padding: 340px 30px;
+}
+
+.register {
+    padding: 150px 30px;
+}
+
 .img-fluid {
     filter: opacity(0.325) drop-shadow(0 0 0 #b0920a);
     position: relative;
@@ -27,8 +40,8 @@ body {
 
 .mama-recipe {
     position: absolute;
-    top: 380px;
-    right: 880px;
+    top: 480px;
+    right: 1040px;
 }
 
 .col-xl-6 > .text-black {
